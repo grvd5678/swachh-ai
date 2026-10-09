@@ -14,8 +14,7 @@ import {
   CheckCircle,
 } from "lucide-react";
 
-const API_BASE_URL =
-  process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API_BASE_URL = "";  // use relative URL — proxied via Next.js API route
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
