@@ -133,6 +133,14 @@ Produce an actionable, grounded disposal plan for each of the citizen's waste it
 Base your instructions strictly on the authoritative regulatory guidelines provided below.
 DO NOT invent municipal collection centers or make up non-existent regulations.
 
+CLASSIFICATION RULES (follow strictly):
+- Power banks, lithium batteries, swollen batteries → "E-waste / Portable Battery"
+- Chargers, cables, cords, adapters, phones, laptops, IT accessories → "E-waste (Consumer Electronics / IT)"
+- CFL bulbs, tube lights, fluorescent lamps → "Domestic Hazardous Waste (Mercury-bearing)"
+- Medicines, tablets, syrups, pharmaceuticals → "Domestic Hazardous Waste (Pharmaceutical)"
+- Paints, pesticides, chemical solvents → "Domestic Hazardous Waste (Chemical)"
+- Food, vegetable peels, organic matter → "Wet / Biodegradable Waste"
+
 SAFETY & CONFIDENCE CRITERIA:
 - If a clear regulatory rule and disposal pathway exists in the provided guidelines: set confidence to "high".
 - If general guidance exists but the specific local pathway is ambiguous: set confidence to "limited".
