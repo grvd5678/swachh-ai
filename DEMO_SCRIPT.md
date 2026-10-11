@@ -26,7 +26,7 @@
 ---
 
 ## 💻 0:40 – 1:50 | Live Product Walkthrough
-*(Screen: Switch to `http://localhost:3000`)*
+*(Screen: Switch to the live Vercel web app or `http://localhost:3000`)*
 
 > "Let's see Swachh.ai in action.
 > 
@@ -68,11 +68,11 @@
 >    - E-Waste Management Rules 2022
 >    - Kolkata Municipal Corporation bye-laws
 > 2. **ChromaDB Vector Store:** Chunks and indexes these regulations with metadata filtering for local vs. national jurisdiction.
-> 3. **Google Gemini LLM:** Uses structured Pydantic schemas to generate typed, hallucination-free decisions.
+> 3. **3-Tier Reliability Engine (`Gemini 3.5 Flash-Lite`):** Uses structured Pydantic schemas to generate typed, hallucination-free decisions, backed by `Gemini 3.8 Flash` and a deterministic ChromaDB rule engine fallback so the system never crashes.
 > 
 > **Our AWS Cloud Strategy:**
 > - **Amazon S3:** Serves as our authoritative document repository where official government regulations are securely stored.
-> - **Amazon ECS Express Mode + AWS Fargate:** Runs our containerized FastAPI backend on serverless Fargate compute with automated HTTPS routing and zero idle EC2 instances.
+> - **Amazon ECR, ECS & AWS Fargate:** Hosts our Docker container image and runs our FastAPI backend on serverless Fargate compute with zero idle EC2 instances.
 > - **Amazon CloudWatch:** Monitors backend queries, RAG retrieval latencies, and system audit logs."
 
 ---
